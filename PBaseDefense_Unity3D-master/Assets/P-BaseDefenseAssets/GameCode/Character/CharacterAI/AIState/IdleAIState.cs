@@ -22,7 +22,7 @@ public class IdleAIState : IAIState
 		if(Targets == null ||  Targets.Count==0)
 		{
 			// 有設定目標時,往目標移動
-			if( m_bSetAttackPosition )
+			if( m_bSetAttackPosition )//通过状态持有者更新状态
 				m_CharacterAI.ChangeAIState( new MoveAIState());
 			return ;
 		}

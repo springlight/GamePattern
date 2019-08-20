@@ -241,6 +241,10 @@
     <Compile Include="Assets\StudyPatternExample\Bridge\MyOpenGL.cs" />
     <Compile Include="Assets\StudyPatternExample\Bridge\MyRenderEngine.cs" />
     <Compile Include="Assets\StudyPatternExample\Bridge\MySphere.cs" />
+    <Compile Include="Assets\StudyPatternExample\Factory\MyFactory.cs" />
+    <Compile Include="Assets\StudyPatternExample\Factory\MyFactoryTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Factory\MyGenericFactory.cs" />
+    <Compile Include="Assets\StudyPatternExample\Factory\MyProduct.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\ConColleageOne.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\ConColleageTwo.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\MyColleage.cs" />

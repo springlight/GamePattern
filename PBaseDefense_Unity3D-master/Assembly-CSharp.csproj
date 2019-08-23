@@ -243,11 +243,15 @@
     <Compile Include="Assets\StudyPatternExample\Bridge\MySphere.cs" />
     <Compile Include="Assets\StudyPatternExample\Builder\MyBuilder.cs" />
     <Compile Include="Assets\StudyPatternExample\Builder\MyBuilderProduct.cs" />
+    <Compile Include="Assets\StudyPatternExample\Builder\MyBuilderTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Builder\MyDirector.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyFactory.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyFactoryTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyGenericFactory.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyProduct.cs" />
+    <Compile Include="Assets\StudyPatternExample\Flyweight\MyFlyTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Flyweight\MyFlyweight.cs" />
+    <Compile Include="Assets\StudyPatternExample\Flyweight\MyFlyweightFactor.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\ConColleageOne.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\ConColleageTwo.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\MyColleage.cs" />

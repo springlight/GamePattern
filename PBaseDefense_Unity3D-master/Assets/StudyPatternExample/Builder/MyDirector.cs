@@ -7,9 +7,16 @@ public class MyDirector
     private MyBuilderProduct m_Product;
     public MyDirector() { }
 
-    public void Construct()
+    public void Construct(MyBuilder theBuilder)
     {
+        m_Product = new MyBuilderProduct();
+        theBuilder.BuildPart1(m_Product);
+        theBuilder.BuildPart2(m_Product);
+    }
 
+    public MyBuilderProduct GetResult()
+    {
+        return m_Product;
     }
 	
 }

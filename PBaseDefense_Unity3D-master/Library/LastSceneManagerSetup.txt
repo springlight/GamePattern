@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/StudyPatternExample/MyTestScene.unity
+- path: Assets/P-BaseDefenseAssets/Scenes/BattleScene.unity
   isLoaded: 1
   isActive: 1

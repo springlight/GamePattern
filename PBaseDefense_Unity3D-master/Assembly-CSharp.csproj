@@ -245,6 +245,10 @@
     <Compile Include="Assets\StudyPatternExample\Builder\MyBuilderProduct.cs" />
     <Compile Include="Assets\StudyPatternExample\Builder\MyBuilderTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Builder\MyDirector.cs" />
+    <Compile Include="Assets\StudyPatternExample\Command\MyCommand.cs" />
+    <Compile Include="Assets\StudyPatternExample\Command\MyCommandTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Command\MyInvoker.cs" />
+    <Compile Include="Assets\StudyPatternExample\Command\MyReceiver1.cs" />
     <Compile Include="Assets\StudyPatternExample\Composite\MyCompositeTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Composite\MyIComponent.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyFactory.cs" />
@@ -260,6 +264,8 @@
     <Compile Include="Assets\StudyPatternExample\Mediator\MyConcreteMediator.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\MyMediator.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\MyTestMediator.cs" />
+    <Compile Include="Assets\StudyPatternExample\ResponsibilityChain\ChainHandler.cs" />
+    <Compile Include="Assets\StudyPatternExample\ResponsibilityChain\ResponsibilityChainTest.cs" />
     <Compile Include="Assets\StudyPatternExample\State\ConStateA.cs" />
     <Compile Include="Assets\StudyPatternExample\State\ConStateB.cs" />
     <Compile Include="Assets\StudyPatternExample\State\ConStateC.cs" />

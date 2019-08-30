@@ -4,6 +4,7 @@ using System.Collections.Generic;
 // 遊戲事件主題
 public class IGameEventSubject 
 {
+    //每一个游戏事件，都有一系列观察者
 	private List<IGameEventObserver> m_Observers = new List<IGameEventObserver>(); // 觀測者
 	private System.Object m_Param = null;	// 發生事件時附加的參數
 

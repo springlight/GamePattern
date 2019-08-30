@@ -15,6 +15,7 @@ public enum ENUM_GameEvent
 // 遊戲事件系統
 public class GameEventSystem : IGameSystem
 {
+    //把每个游戏事件当成主题，游戏事件变化，就会通知相应的观察者
 	private Dictionary< ENUM_GameEvent, IGameEventSubject> m_GameEvents = new Dictionary< ENUM_GameEvent, IGameEventSubject>(); 
 
 	public GameEventSystem(PBaseDefenseGame PBDGame):base(PBDGame)

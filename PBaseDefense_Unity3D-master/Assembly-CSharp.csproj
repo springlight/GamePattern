@@ -264,6 +264,10 @@
     <Compile Include="Assets\StudyPatternExample\Mediator\MyConcreteMediator.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\MyMediator.cs" />
     <Compile Include="Assets\StudyPatternExample\Mediator\MyTestMediator.cs" />
+    <Compile Include="Assets\StudyPatternExample\Memento\Caretaker.cs" />
+    <Compile Include="Assets\StudyPatternExample\Memento\Memento.cs" />
+    <Compile Include="Assets\StudyPatternExample\Memento\MementoTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Memento\Originator.cs" />
     <Compile Include="Assets\StudyPatternExample\Observer\Observer.cs" />
     <Compile Include="Assets\StudyPatternExample\Observer\ObserverTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Observer\Subject.cs" />

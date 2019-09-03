@@ -279,6 +279,13 @@
     <Compile Include="Assets\StudyPatternExample\State\MyContext.cs" />
     <Compile Include="Assets\StudyPatternExample\State\MyState.cs" />
     <Compile Include="Assets\StudyPatternExample\State\MyStateTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\DrawVisitor.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\IShape.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\IShapeVisitor.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\RenderEngine.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\ShapeContainer.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\VectorCountVisitor.cs" />
+    <Compile Include="Assets\StudyPatternExample\Visitor\VisitorTest.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Work/study/PBaseDefense_Unity3D-master/PBaseDefense_Unity3D-master/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

@@ -251,6 +251,9 @@
     <Compile Include="Assets\StudyPatternExample\Command\MyReceiver1.cs" />
     <Compile Include="Assets\StudyPatternExample\Composite\MyCompositeTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Composite\MyIComponent.cs" />
+    <Compile Include="Assets\StudyPatternExample\Decorator\DecoratorTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Decorator\IAdditional.cs" />
+    <Compile Include="Assets\StudyPatternExample\Decorator\IShape.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyFactory.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyFactoryTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Factory\MyGenericFactory.cs" />

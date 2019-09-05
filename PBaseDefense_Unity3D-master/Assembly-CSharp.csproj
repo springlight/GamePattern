@@ -233,6 +233,9 @@
     <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponGun.cs" />
     <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponRifle.cs" />
     <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponRocket.cs" />
+    <Compile Include="Assets\StudyPatternExample\Adapter\Adaptee.cs" />
+    <Compile Include="Assets\StudyPatternExample\Adapter\AdapterTest.cs" />
+    <Compile Include="Assets\StudyPatternExample\Adapter\Target.cs" />
     <Compile Include="Assets\StudyPatternExample\Bridge\MyBriderTest.cs" />
     <Compile Include="Assets\StudyPatternExample\Bridge\MyCube.cs" />
     <Compile Include="Assets\StudyPatternExample\Bridge\MyCylinder.cs" />
